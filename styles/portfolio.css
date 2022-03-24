@@ -1,16 +1,22 @@
-
 h1 {
-    font-family: IBM Plex Sans Arabic', sans-serif;
+  font-family: Work Sans, sans-serif;
+}
+p {
+  font-size: 25px;
+  margin: 50px;
 }
 .a {
-    font-family: IBM Plex Serif', serif;
+  font-family: Poppins, sans-serif;
 }
 .b {
-    font-family: Playfair Display', serif;
+  font-family: Work Sans, sans-serif;
 }
-.c{
-    font-family: Poppins', sans-serif;
+.c {
+  font-family: Fuzzy Bubbles, cursive;
 }
 .d {
-    font-family: Work Sans', sans-serif;
+  font-family: Klee One, cursive;
+}
+.e {
+  font-family: Sriracha, cursive;
 }
