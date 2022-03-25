@@ -85,12 +85,21 @@ h3 {
 .media-contact a {
   text-decoration: none;
   color: var(--branding-color);
+  font-weight: 900;
 }
 .media-contact a:hover {
   cursor: pointer;
   font-size: 17px;
   font-weight: 900;
   transition: ease-in-out 0.3s;
+}
+
+.coded-by {
+  margin-bottom: 10px;
+  font-weight: 900;
+}
+.coded-by a {
+  opacity: 0.7;
 }
 @media (max-width: 768px) {
   h1 {
@@ -116,6 +125,11 @@ h3 {
 }
 @media (max-width: 380px) {
   .my-photo {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  .footer span {
     display: none;
   }
 }
