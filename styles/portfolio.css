@@ -125,6 +125,9 @@ h3 {
   display: block;
   margin: 10px auto;
 }
+.resumepage-content p {
+  margin-top: 50px;
+}
 .knowledge {
   margin: 100px auto;
 }
@@ -178,22 +181,28 @@ h3 {
   h1 {
     font-size: 60px;
   }
-  .my-photo {
+  .home-photo,
+  .about-photo {
     display: block;
     margin: 0 auto;
   }
-  .homepage-content p {
+  .homepage-content p,
+  .aboutpage-content p {
     padding-top: 20px;
     text-align: center;
   }
+  .knowledge {
+    display: none;
+  }
 }
 @media (max-width: 380px) {
-  .my-photo {
+  .home-photo,
+  .about-photo {
     display: none;
   }
 }
 @media (max-width: 800px) {
-  .media-contact span {
+  .knowledge {
     display: none;
   }
 }
