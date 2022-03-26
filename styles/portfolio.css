@@ -43,7 +43,11 @@ h3 {
 h4 {
   margin: 20px 10px 40px;
 }
-
+.note {
+  font-family: var(--special-font-family);
+  font-size: 20px;
+  color: red;
+}
 .btn-branding {
   color: white;
   background-color: rgba(164, 136, 216, 0.729);
