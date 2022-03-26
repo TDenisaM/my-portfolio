@@ -120,7 +120,32 @@ h3 {
 .app-box:hover {
   opacity: 0.7;
 }
-
+.logo-shecodes {
+  max-width: 200px;
+  display: block;
+  margin: 10px auto;
+}
+.knowledge {
+  margin: 100px auto;
+}
+.knowledge img {
+  display: block;
+  margin: 20px auto;
+  max-width: 80px;
+}
+.responsive {
+  max-width: 220px;
+}
+.seo {
+  max-width: 220px;
+}
+.media-contact li {
+  list-style: none;
+  text-align: center;
+  line-height: 50px;
+  margin: 15px auto;
+  padding: 20px;
+}
 .media-contact a {
   text-decoration: none;
   color: var(--branding-color);
@@ -168,7 +193,7 @@ h3 {
   }
 }
 @media (max-width: 800px) {
-  .footer span {
+  .media-contact span {
     display: none;
   }
 }
