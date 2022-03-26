@@ -40,6 +40,9 @@ h3 {
   color: white;
   text-shadow: 3px 3px 3px black;
 }
+h4 {
+  margin: 20px 10px 40px;
+}
 
 .btn-branding {
   color: white;
@@ -111,11 +114,15 @@ h3 {
   border: var(--branding-border);
 }
 .workpage-content a {
-  font-size: 37px;
+  font-size: 30px;
+}
+.app-box a {
+  font-size: 30px;
 }
 .app-box {
   border: 1px solid black;
   border-radius: 30px;
+  background-color: var(--small-links-bg);
 }
 .app-box:hover {
   opacity: 0.7;
@@ -168,6 +175,12 @@ h3 {
 .coded-by a {
   opacity: 0.7;
 }
+@media (max-width: 990px) {
+  .small-links:hover,
+  .small-links {
+    font-size: 18px;
+  }
+}
 @media (max-width: 800px) {
   .knowledge {
     display: none;
@@ -213,6 +226,10 @@ h3 {
     padding-top: 20px;
     text-align: center;
   }
+  .workpage-content {
+    max-width: 400px;
+  }
+
   .knowledge {
     display: none;
   }
@@ -242,5 +259,9 @@ h3 {
   }
   .app-box a {
     font-size: 30px;
+  }
+  .small-links:hover,
+  .small-links {
+    font-size: 14px;
   }
 }
