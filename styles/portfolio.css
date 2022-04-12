@@ -45,7 +45,7 @@ h4 {
 }
 .note {
   font-family: var(--special-font-family);
-  font-size: 20px;
+  font-size: 15px;
   color: red;
 }
 .btn-branding {
@@ -135,6 +135,11 @@ h4 {
   max-width: 200px;
   display: block;
   margin: 10px auto;
+}
+.logo-shecodes-current {
+  max-width: 200px;
+  display: block;
+  margin: 0 auto 10px;
 }
 .resumepage-content p {
   margin-top: 50px;
