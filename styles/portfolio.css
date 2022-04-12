@@ -102,6 +102,19 @@ h4 {
   box-shadow: var(--box-shadow);
   background-color: var(--small-links-bg);
 }
+.home-link {
+  font-size: 35px;
+  text-decoration: none;
+  color: var(--branding-color);
+  font-family: var(--special-font-family);
+  text-shadow: var(--content-shadow);
+  transition: all 150ms ease-in-out;
+  cursor: pointer;
+}
+.home-link:hover {
+  font-size: 35px;
+  text-decoration: underline;
+}
 .home-photo {
   border: var(--branding-border);
   width: 250px;
