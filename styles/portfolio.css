@@ -124,9 +124,9 @@ h4 {
   width: 300px;
 }
 .workpage-content img {
-  max-height: 400px;
+  max-height: 300px;
   display: block;
-  margin: 20px auto;
+  margin: 20px auto 20px 30px;
   box-shadow: var(--box-shadow);
   border: var(--branding-border);
 }
@@ -247,9 +247,6 @@ h4 {
   .aboutpage-content p {
     padding-top: 20px;
     text-align: center;
-  }
-  .workpage-content {
-    max-width: 400px;
   }
 
   .knowledge {
