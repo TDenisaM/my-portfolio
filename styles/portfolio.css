@@ -43,11 +43,7 @@ h3 {
 h4 {
   margin: 20px 10px 40px;
 }
-.note {
-  font-family: var(--special-font-family);
-  font-size: 15px;
-  color: red;
-}
+
 .btn-branding {
   color: white;
   background-color: rgba(164, 136, 216, 0.729);
@@ -149,11 +145,7 @@ h4 {
   display: block;
   margin: 10px auto;
 }
-.logo-shecodes-current {
-  max-width: 200px;
-  display: block;
-  margin: 0 auto 10px;
-}
+
 .resumepage-content p {
   margin-top: 50px;
 }
