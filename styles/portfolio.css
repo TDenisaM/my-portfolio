@@ -154,8 +154,12 @@ h4 {
 }
 .knowledge img {
   display: block;
-  margin: 20px auto;
+  margin: 20px auto 0;
   max-width: 80px;
+}
+.knowledge p {
+  font-family: var(--default-font-family);
+  font-weight: 900;
 }
 .responsive {
   max-width: 220px;
